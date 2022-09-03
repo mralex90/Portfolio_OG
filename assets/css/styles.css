@@ -502,8 +502,8 @@ img{
     padding: 2rem 1rem;
     display: grid;
     place-items: center;
-    /* visibility: hidden; */
-    /* opacity: 0; */
+    visibility: hidden;
+    opacity: 0;
     transition: .5s;
     z-index: var(--z-modal);
 }
@@ -560,6 +560,11 @@ img{
     cursor: pointer;
 }
 
+/* Active modal */
+.active-modal{
+    opacity: 1;
+    visibility: visible;
+}
 /*============ ABOUT ============*/
 /*============  ============*/
 /*============  ============*/
